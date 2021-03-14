@@ -14,6 +14,7 @@ browser = webdriver.Edge(r"C:\Users\USER\Downloads\edgedriver_win64\msedgedriver
 
 browser.get('https://www.instagram.com/accounts/login/?hl=es')
 sleep(2)
+
 elem = browser.find_element_by_name("username").send_keys(user)
 elem = browser.find_element_by_name("password").send_keys(contra)
 
