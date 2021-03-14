@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 
-
+#Credenciales
 user=str(input("Ingrese usuario: "))
 contra=str(input("Ingrese contra: "))
 inp=input("Ingresa los users aqui (separados por coma): ").replace("@","").replace(" ","")
